@@ -194,6 +194,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   zoom: 1;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
 }
 .container:before, .container:after {
   display: table;
@@ -1025,7 +1028,6 @@ textarea[readonly] {
   float: none;
   width: auto;
   padding: 0;
-  margin-left: 20px;
   line-height: 18px;
   text-align: left;
   white-space: normal;
@@ -1877,13 +1879,13 @@ footer {
   display: inline-block;
   background-color: #e6e6e6;
   background-repeat: no-repeat;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6));
-  background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
-  background-image: -moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6);
-  background-image: -ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
-  background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
-  background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#E6E6E6), color-stop(25%, #E6E6E6), to(#E6E6E6));
+  background-image: -webkit-linear-gradient(#E6E6E6, #E6E6E6 25%, #e6e6e6);
+  background-image: -moz-linear-gradient(top, #E6E6E6, #E6E6E6 25%, #e6e6e6);
+  background-image: -ms-linear-gradient(#E6E6E6, #E6E6E6 25%, #e6e6e6);
+  background-image: -o-linear-gradient(#E6E6E6, #E6E6E6 25%, #e6e6e6);
+  background-image: linear-gradient(#E6E6E6, #E6E6E6 25%, #e6e6e6);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E6E6E6', endColorstr='#e6e6e6', GradientType=0);
   padding: 5px 14px 6px;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   color: #333;
@@ -1913,18 +1915,18 @@ footer {
 }
 .btn.primary {
   color: #ffffff;
-  background-color: #0064cd;
+  background-color: #ef5329;
   background-repeat: repeat-x;
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#049cdb), to(#0064cd));
-  background-image: -moz-linear-gradient(top, #049cdb, #0064cd);
-  background-image: -ms-linear-gradient(top, #049cdb, #0064cd);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #049cdb), color-stop(100%, #0064cd));
-  background-image: -webkit-linear-gradient(top, #049cdb, #0064cd);
-  background-image: -o-linear-gradient(top, #049cdb, #0064cd);
-  background-image: linear-gradient(top, #049cdb, #0064cd);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#049cdb', endColorstr='#0064cd', GradientType=0);
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#ef5329), to(#ef5329));
+  background-image: -moz-linear-gradient(top, #ef5329, #ef5329);
+  background-image: -ms-linear-gradient(top, #ef5329, #ef5329);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ef5329), color-stop(100%, #ef5329));
+  background-image: -webkit-linear-gradient(top, #ef5329, #ef5329);
+  background-image: -o-linear-gradient(top, #ef5329, #ef5329);
+  background-image: linear-gradient(top, #ef5329, #0ef5329);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef5329', endColorstr='#ef5329', GradientType=0);
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  border-color: #0064cd #0064cd #003f81;
+  border-color: #ef5329 #ef5329 #ef5329;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
 .btn.active, .btn:active {
@@ -2503,7 +2505,12 @@ body {background:#605850;}
 .header .top-nav ul li.login a {background:#ee352a;border-radius:15px 0;padding:5px 20px;}
 
 .content {float:left;width:100%;position:relative;z-index:1;}
-.content .left-nav {position:fixed;top:15px;font-size:12px;float:left;padding:90px 0 0 40px;}
+.content .left-nav {position:relative;top:0px;font-size:12px;float:left;padding:60px 0 0 40px;}
+.content .sticky #nav {
+    position: fixed;
+    top: 0;
+    width: 195px;
+}
 .content .left-nav .section {margin:0 0 25px 0;}
 .content .left-nav ul {margin:0px 0 18px 20px;}
 .content .left-nav ul li {list-style-type:none;color:#fff;}

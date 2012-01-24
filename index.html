@@ -9,10 +9,17 @@
 	<link rel="icon" href='images/icon-tlogo-32.png' sizes="32x32"/>
 	<link rel="icon" href='images/icon-tlogo-48.png' sizes="48x48"/>
 	
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/jquery.uniform.js" type="text/javascript"></script>
+	<script src="js/scrollto.js" type="text/javascript"></script>
+	<script src="js/localscroll.js" type="text/javascript"></script>
+	<script src="js/functions.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" href="uniform.css" type="text/css" media="screen" charset="utf-8" />
+	
 	<link rel="shortcut icon" href="favicon.ico" />
 </head>
 <body>
-	<div class="left-bg"></div>
 	<div class="container">
 		<div class="header">
 			<div class="logo">
@@ -29,7 +36,8 @@
 			</div>
 		</div>
 		<div class="content">
-			<div class="left-nav">
+			<div id="nav-container">
+			<div class="left-nav" id="nav">
 				<div class="section">
 					<div class="section-title"><a href="service-protection-plans.html"><img src="images/heading-service-plans.png" alt="Service Plans" /></a></div>
 					<ul>
@@ -60,6 +68,7 @@
 					</ul>
 				</div>
 			</div>
+			</div><!-- nav-container -->
 			<div class="main-body home">
 				<div class="home-text">
 					Protect your investment,<br />
@@ -119,6 +128,6 @@
 			</div>
 		</div>
 	</div>
-	<div class="right-bg"></div>
+	<div id="bottom"></div>
 </body>
 </html>
