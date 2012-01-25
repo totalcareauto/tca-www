@@ -2505,12 +2505,7 @@ body {background:#605850;}
 .header .top-nav ul li.login a {background:#ee352a;border-radius:15px 0;padding:5px 20px;}
 
 .content {float:left;width:100%;position:relative;z-index:1;}
-.content .left-nav {position:relative;top:0px;font-size:12px;float:left;padding:60px 0 0 40px;}
-.content .sticky #nav {
-    position: fixed;
-    top: 0;
-    width: 195px;
-}
+.content .left-nav {position:fixed;top:0px;font-size:12px;float:left;padding:90px 0 0 40px;}
 .content .left-nav .section {margin:0 0 25px 0;}
 .content .left-nav ul {margin:0px 0 18px 20px;}
 .content .left-nav ul li {list-style-type:none;color:#fff;}
