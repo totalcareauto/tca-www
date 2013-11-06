@@ -2552,6 +2552,9 @@ body {background:#605850;}
 .gap-coverage {background:url('images/page-image-gap-coverage.png') no-repeat right 20px;}
 .accidental-death-and-disability {background:url('images/page-image-accidental-death-and-disability.png') no-repeat right 20px;}
 
+/* Credit Protection */
+.credit-protection {background:url('images/page-image-credit-protection.jpg') no-repeat right 7px;}
+
 /* Prepaid Maintenance */
 .prepaid-maintenance {background:url('images/page-image-prepaid-maintenance.png') no-repeat right 7px;}
 .prepaid-maintenance .heading {float:left;margin:55px 0 30px 45px;width:100%;}
