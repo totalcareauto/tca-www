@@ -32,8 +32,8 @@
 		<div class="footer-section">
 			<h4>Appearance Protection</h4>
 			<ul>
-				<li><a href="appearance-protection.html#exterior-protection">Exterior Protection</a></li>
-				<li><a href="appearance-protection.html#interior-protection">Interior Protection</a></li>
+				<li><a href="exterior-protection.html">Exterior Protection</a></li>
+				<li><a href="interior-protection.html">Interior Protection</a></li>
 				<li><a href="appearance-protection.html#undercoating">Undercoating</a></li>
 			</ul>
 		</div>
